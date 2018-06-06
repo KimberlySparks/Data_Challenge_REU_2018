@@ -174,6 +174,7 @@ public class CompletionNext {
 	/** Creates the CSV file */
 	private void createCSV() {
 		try {
+			// File path for the CSV file
 			fw = new FileWriter("C://Users//kspar//Documents//Data Challenge//getting_started_simplified.csv");
 			pw = new PrintWriter(fw);
 		} catch (IOException i) {
